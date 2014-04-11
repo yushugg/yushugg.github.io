@@ -6,4 +6,5 @@ categories: jekyll update
 ---
 
 Hi, This is yushu's blog.
+
 This is a test post.
