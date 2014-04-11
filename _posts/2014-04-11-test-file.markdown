@@ -2,9 +2,10 @@
 layout: post
 title:  "Test Blog"
 date:   2014-04-11
-categories: jekyll update
+categories: update
 ---
 
 Hi, This is yushu's blog.
+No blank line mark.
 
-This is a test post.
+This is a new line.
