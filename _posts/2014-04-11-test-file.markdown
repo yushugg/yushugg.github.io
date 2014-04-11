@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Test Blog"
+date:   2014-04-11
+categories: jekyll update
+---
+
+Hi, This is yushu's blog.
+This is a test post.
