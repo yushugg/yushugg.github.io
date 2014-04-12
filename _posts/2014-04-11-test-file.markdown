@@ -6,10 +6,10 @@ categories: update
 tags: test
 ---
 
-Hi, This is yushu's blog.
-No blank line mark.
+这是一个中文测试
+不知道管不管用
 
-This is a new line.
+这是新的一行
 
 #Headers
 ##h2
