@@ -2,7 +2,7 @@
 layout: post
 title: "effective cpp learning part 1"
 date: 2014-04-12
-categories: [update, corcpp]
+categories: corcpp
 tags: corcpp
 ---
 
