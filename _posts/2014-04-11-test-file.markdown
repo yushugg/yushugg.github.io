@@ -3,9 +3,78 @@ layout: post
 title:  "Test Blog"
 date:   2014-04-11
 categories: update
+tags: test
 ---
 
 Hi, This is yushu's blog.
 No blank line mark.
 
 This is a new line.
+
+#Headers
+##h2
+###h3
+####h4
+#####h5
+######h6
+
+#Emphasis
+*em*
+_em_
+**strong**
+__strong__
+
+#Lists
+##Unordered
+* u1
+* u2
+* u3
+
+##Ordered
+1. o1
+2. o2
+3. o3
+
+#Links
+[Google](https://google.com "Google")
+[Baidu][baidu]
+
+[baidu]: http://baidu.com "Baidu"
+
+#Images
+![BuBu]({{ site.url }}/assets/bubu.jpg)
+
+#Codes
+You say `what`?
+
+#C Programming language
+{% highlight c linenos %}
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello world\n");
+}
+
+{% endhighlight %}
+
+#Table test
+<table class="table table-hover">
+    <thead>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>xxx</td>
+        <td>yyy</td>
+        <td>zzz</td>
+    </tr>
+    <tr>
+        <td>aaa</td>
+        <td>bbb</td>
+        <td>ccc</td>
+    </tr>
+    </tbody>
+</table>
