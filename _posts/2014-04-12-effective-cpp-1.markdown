@@ -63,8 +63,8 @@ const Rational operator* (const Rational& lhs, const Rational& rhs);
 
 ####成员函数const：
 1. 保证改不改变类的成员内容，不可以更改对象内任何non-static成员变量，但是如果成员内容添加了mutable，则这些可以被更改
-2. 使得const对象可以调用函数，const对象只能调用const函数，如参数写的const Rational& xx，在该函数中，xx就可以调用const函数了
+2. 使得const对象可以调用函数，const对象只能调用const**函数**，如参数写的const Rational& xx，在该函数中，xx就可以调用const**函数**了
 
-const对象可以读取成员变量，但是不能改变它们，所以读取是没问题的
+const对象可以读取成员**变量**，但是不能改变它们，所以读取是没问题的
 
-为了不写两份代码（一份是const成员，一份不是），可以调用const\_cast\<char&\>将const char&转换为char&，消除const；调用static\_cast\<const TextBlock&\>(\*this)[position]将非const的参数改为const类型的参数。<>里面的是转成的结果利用const版本写出非const版本，先写const，再复用产生非const，反之不好，因为const成员函数绝不改动对象成员
+为了不写两份代码（一份是const成员，一份不是），可以调用const\_cast\<char&\>将const char&转换为char&，消除const；如，在重载运算符[]的操作中，调用static\_cast\<const TextBlock&\>(\*this)[position]将非const的参数改为const类型的参数。<>里面的是转成的结果利用const版本写出非const版本，先写const，再复用产生非const，反之不好，因为const成员函数绝不改动对象成员
