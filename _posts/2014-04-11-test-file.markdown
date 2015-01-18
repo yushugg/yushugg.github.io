@@ -7,47 +7,61 @@ tags: test
 ---
 
 这是一个中文测试
-不知道管不管用
+不知道管不管用  
+加两个空格就是新的一行了
 
-这是新的一行
+这是新的一行，分段的一行
 
-#Headers
-##h2
-###h3
-####h4
-#####h5
-######h6
+# Headers
+
+## h2
+
+### h3
+
+#### h4
+
+##### h5
+
+###### h6，标题要换一行才起作用
 
 #Emphasis
-*em*
-_em_
-**strong**
-__strong__
 
-#Lists
-##Unordered
+*em*  
+_em_  
+**strong**  
+__strong__  
+
+# Lists
+
+## Unordered
+
 * u1
 * u2
 * u3
 
-##Ordered
+## Ordered
+
 1. o1
 2. o2
 3. o3
 
-#Links
-[Google](https://google.com "Google")
+# Links
+
+[Google](https://google.com "Google")  
 [Baidu][baidu]
 
 [baidu]: http://baidu.com "Baidu"
 
-#Images
-![BuBu]({{ site.url }}/assets/bubu.jpg)
+# Images
 
-#Codes
+![BuBu](/img/bubu.png)
+
+# Codes
+
 You say `what`?
 
-#C Programming language
+# C Programming language
+
 {% highlight c linenos %}
 #include <stdio.h>
 
@@ -58,7 +72,8 @@ int main()
 
 {% endhighlight %}
 
-#Table test
+# Table test
+
 <table class="table table-hover">
     <thead>
         <th>1</th>

@@ -4,6 +4,3 @@
 ```
 Blog Pages
 ```
-
-## License
-The MIT License (MIT)

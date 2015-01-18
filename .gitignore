@@ -1,11 +1,8 @@
-# folder
 _site
+.sass-cache
 
-# fixed file
-
-# temp file
-~*
+*~
 *.swp
 
-# mac files
 *.DS_Store
+*.dSYM

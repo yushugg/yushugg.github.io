@@ -1,3 +1,67 @@
-name: Yushu Blog
-markdown: redcarpet
-pygments: true
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.mahuachun.com" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Yushu Blog
+  avatar: bubu.png
+  gravatar: # email md5 hash
+  description: "Yushu's blog, for coding life." # used by search engines
+  
+  # Header and footer text
+  header_text: >
+     <p>Life is full of challenges, but everything will become better.</p>
+  footer_text: >
+   Powered by Yushu, github: <a href="https://github.com/yushugg">github.com/yushugg</a>
+   <br />
+   This blog uses typ-theme from <a href="https://github.com/rohanchandra/type-theme">rohanchandra/type-theme</a>
+  
+  # Icons
+  rss: true
+  email_address: yushu@mahuachun.com # full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket: 
+  dribbble: 
+  facebook: 
+  flickr: 
+  github: 
+  google_plus: 
+  instagram: 
+  linkedin:  # full URL
+  pinterest: 
+  reddit: 
+  soundcloud: 
+  stack_exchange:  # full URL
+  steam: 
+  tumblr: 
+  twitter: 
+  wordpress: 
+  youtube: 
+  
+  # Scripts
+  google_analytics: # tracking id, e.g. "UA-000000-01"
+  disqus_shortname: "yushublog"
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "More"
+  
+  # Colors, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
