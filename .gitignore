@@ -6,3 +6,6 @@ _site
 # temp file
 ~*
 *.swp
+
+# mac files
+*.DS_Store
