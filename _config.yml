@@ -16,7 +16,7 @@ theme:
   footer_text: >
    Powered by Yushu, github: <a href="https://github.com/yushugg">github.com/yushugg</a>
    <br />
-   This blog uses typ-theme from <a href="https://github.com/rohanchandra/type-theme">rohanchandra/type-theme</a>
+   This blog uses type-theme from <a href="https://github.com/rohanchandra/type-theme">rohanchandra/type-theme</a>
   
   # Icons
   rss: true
